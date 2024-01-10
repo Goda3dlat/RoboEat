@@ -1,5 +1,5 @@
 body{
-    background-color: #f9f9f9;
+    background-color: black;
 }
 
 .like{
@@ -8,8 +8,23 @@ body{
     color: #ffffff;
 }
 
-.dislike{
+.dislike {
     background-color: #dc3545;
     border-color: #dc3545;
     color: #ffffff;
+}
+navbar-expand-lg bg-body-tertiary.navbar{
+
+    background-color: green!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
